@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-image: url("/imajenes/comida_inicio.jpeg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.login-container {
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -100px;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+h1{
+    margin: 0;
+    margin-top: 20px;
+}
+
+.sign-in-btn,
+.create-account-btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create-account-btn:hover,
+.sign-in-btn:hover {
+    background-color: #a6a6a6;
+}
